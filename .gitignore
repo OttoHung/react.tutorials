@@ -1,0 +1,9 @@
+*.log
+/**/*.log
+/**/node_modules
+node_modules
+/**/dist/
+/**/tsconfig.tsbuildinfo
+.vscode
+bin
+/**/bin
