@@ -24,7 +24,8 @@
     "clean:install": "ts-clean -i",
     "fix": "eslint --fix",
     "lint": "eslint",
-    "test": "yarn workspaces run test"
+    "test": "yarn workspaces run test",
+    "tic-tac-toe": "yarn workspace tic-tac-toe"
   },
   "main": "index.js",
   "author": "OttoHung <totsi04@gmail.com>",
