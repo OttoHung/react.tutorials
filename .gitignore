@@ -7,3 +7,26 @@ node_modules
 .vscode
 bin
 /**/bin
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+workspaces/**/.pnp
+workspaces/**/.pnp.js
+
+# testing
+workspaces/**/coverage
+
+# production
+workspaces/**/build
+
+# misc
+workspaces/**/.DS_Store
+workspaces/**/.env.local
+workspaces/**/.env.development.local
+workspaces/**/.env.test.local
+workspaces/**/.env.production.local
+
+workspaces/**/npm-debug.log*
+workspaces/**/yarn-debug.log*
+workspaces/**/yarn-error.log*
